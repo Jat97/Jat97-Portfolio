@@ -10,9 +10,7 @@ jobs:
     - uses: actions/setup-node@v4
       with:
         node-version: '26'
-    - run: npm install @11ty/eleventy
-    - run: npm install @tailwindcss/cli
-    - run: npx @tailwindcss/cli -i ./input.css -o ./output.css
+    - run: npm install
     - run: npx @11ty/eleventy
     - uses: actions/upload-pages-artifact@v3
       with:
