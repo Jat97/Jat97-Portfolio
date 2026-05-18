@@ -1,3 +1,3 @@
 module.exports = (eleventyConfig) => {
-    eleventyConfig.addPassThroughCopy("output.css");
+    eleventyConfig.addPassthroughCopy("output.css");
 }
